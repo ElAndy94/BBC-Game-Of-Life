@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Dyne-Slider/precache-manifest.f335865e51bee038a9f6b0c113a5b140.js"
+  "/BBC-Game-Of-Life/precache-manifest.449eed231cd3cb69ccd27432b28a2e19.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Dyne-Slider/index.html", {
+workbox.routing.registerNavigationRoute("/BBC-Game-Of-Life/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
